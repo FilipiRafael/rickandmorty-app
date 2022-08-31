@@ -20,6 +20,6 @@ export default StyleSheet.create({
     },
     informations: {
         marginVertical: 20,
-        marginLeft: '20%',
+        marginLeft: 150,
     }
 });

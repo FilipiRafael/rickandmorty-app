@@ -50,6 +50,22 @@ export const Card = ({
                         style={{ width: 300, height: 300 }}
                     />
                 )}
+                <Pressable
+                    onPress={() => setOpenModal(false)}
+                    style={{
+                        width: 100,
+                        height: 100,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        backgroundColor: 'lightblue',
+                        borderRadius: 10,
+                        position: 'absolute',
+                        bottom: 30,
+                        right: 20
+                    }}
+                >
+                    <Text>CloseModal</Text>
+                </Pressable>
             </Modal>
         </Pressable>
     );
